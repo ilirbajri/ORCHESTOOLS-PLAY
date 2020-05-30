@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="xylophone" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="72" LoKey="70" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_C4_ff_01_far.wav"
+          Duplicate="0" SampleStartMod="250" MonolithOffset="0" MonolithLength="151552"
+          SampleRate="44100"/>
+  <sample Root="84" LoKey="82" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_C5_ff_01_far.wav"
+          Duplicate="0" SampleStartMod="250" MonolithOffset="151552" MonolithLength="86016"
+          SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="99" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_C6_ff_01_far.wav"
+          Duplicate="0" Volume="4" SampleStartMod="250" MonolithOffset="237568"
+          MonolithLength="65536" SampleRate="44100"/>
+  <sample Root="108" LoKey="106" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_C7_ff_01_far.wav"
+          Duplicate="0" Volume="10" SampleStartMod="250" MonolithOffset="303104"
+          MonolithLength="53248" SampleRate="44100"/>
+  <sample Root="67" LoKey="0" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_G3_ff_01_far.wav"
+          Duplicate="0" SampleStartMod="250" MonolithOffset="356352" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="79" LoKey="76" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_G4_ff_01_far.wav"
+          Duplicate="0" SampleStartMod="250" MonolithOffset="516096" MonolithLength="114688"
+          SampleRate="44100"/>
+  <sample Root="91" LoKey="88" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_G5_ff_01_far.wav"
+          Duplicate="0" SampleStartMod="250" MonolithOffset="630784" MonolithLength="73728"
+          SampleRate="44100"/>
+  <sample Root="103" LoKey="100" HiKey="105" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Xylo/Xylo_Medium_G6_ff_01_far.wav"
+          Duplicate="0" Volume="8" SampleStartMod="250" MonolithOffset="704512"
+          MonolithLength="61440" SampleRate="44100"/>
+</samplemap>

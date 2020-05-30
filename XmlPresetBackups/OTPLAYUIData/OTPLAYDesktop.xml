@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptLabel" id="Label2" x="0" y="0" width="626" height="352"
+             bgColour="4278190080"/>
+  <Component type="ScriptFloatingTile" id="ANALYSER" x="-185" y="-203" width="970"
+             height="598" ContentType="AudioAnalyser" bgColour="4278190080"
+             itemColour="1458372863" itemColour2="4473924" textColour="16761035"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Analyser1&quot;,&#13;&#10;  &quot;Index&quot;: 0&#13;&#10;}"/>
+  <Component type="ScriptPanel" id="Panel2" x="4" y="20" width="593" height="210"
+             itemColour2="4280494363" itemColour="631481251"/>
+  <Component type="ScriptSlider" id="TRANSPOSE" x="10" y="176" processorId="Transposer1"
+             parameterId="TransposeAmount" style="Horizontal" min="-24" max="24"
+             middlePosition="0" stepSize="1" width="115" height="20" bgColour="2801858046"
+             itemColour2="3943764241" textColour="4294961641"/>
+  <Component type="ScriptSlider" id="DELAYLEFTTIME" x="450" y="26" style="Horizontal"
+             height="20" width="100" processorId="Delay1" parameterId="DelayTimeLeft"
+             mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
+             bgColour="434536530" itemColour="1570641944" textColour="1204669901"
+             itemColour2="716774171"/>
+  <Component type="ScriptSlider" id="DELAYLEFTFEEDBACK" x="450" y="51" style="Horizontal"
+             height="20" width="100" processorId="Delay1" parameterId="FeedbackLeft"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" bgColour="434536530"
+             itemColour="1570641944" textColour="1204669901" itemColour2="716774171"/>
+  <Component type="ScriptSlider" id="DELAYRIGHTTIME" x="450" y="81" style="Horizontal"
+             height="20" width="100" processorId="Delay1" parameterId="DelayTimeRight"
+             mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
+             bgColour="434536530" itemColour="1570641944" textColour="1204669901"
+             itemColour2="716774171"/>
+  <Component type="ScriptSlider" id="DELAYRIGHTFEEDBACK" x="450" y="106" style="Horizontal"
+             height="20" width="100" processorId="Delay1" parameterId="FeedbackRight"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" bgColour="434536530"
+             itemColour="1570641944" textColour="1204669901" itemColour2="716774171"/>
+  <Component type="ScriptSlider" id="DELAYMIX" x="560" y="26" style="Vertical"
+             height="100" width="30" processorId="Delay1" parameterId="Mix"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" bgColour="434536530"
+             itemColour="1570641944" textColour="1204669901" itemColour2="716774171"/>
+  <Component type="ScriptLabel" id="ScriptLabel5" x="560" y="102" width="30"
+             height="25" fontName="Calibri" text="MIX" textColour="4278190080"
+             enabled="0" fontStyle="Bold" fontSize="16"/>
+  <Component type="ScriptButton" id="DELAY ON" x="450" y="132" processorId="Delay1"
+             parameterId="Enabled" text="DELAY " width="140" height="20" bgColour="1032918550"
+             itemColour="2471825424" textColour="867875000" itemColour2="2817176328"/>
+  <Component type="ScriptSlider" id="ATTACK" x="10" y="26" style="Vertical"
+             width="25" height="120" processorId="ENVELOPE" parameterId="Attack"
+             bgColour="798321187" itemColour2="720535042" itemColour="1004360704"
+             mode="Time" max="8000" stepSize="1" suffix=" ms" middlePosition="1000"
+             showValuePopup="Above" textColour="16777215"/>
+  <Component type="ScriptLabel" id="ScriptLabel1" x="10" y="125" width="25"
+             height="25" fontName="Calibri" text="A" enabled="0" fontSize="15"
+             fontStyle="Bold" textColour="4292664540"/>
+  <Component type="ScriptSlider" id="HOLD" x="40" y="26" style="Vertical"
+             width="25" height="120" processorId="ENVELOPE" parameterId="Hold"
+             bgColour="798321187" itemColour2="720535042" itemColour="1004360704"
+             mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
+             showValuePopup="Above" textColour="16777215"/>
+  <Component type="ScriptLabel" id="ScriptLabel2" x="40" y="125" width="25"
+             height="25" fontName="Calibri" text="H" enabled="0" fontSize="15"
+             fontStyle="Bold" textColour="4292664540"/>
+  <Component type="ScriptSlider" id="DECAY" x="70" y="26" style="Vertical"
+             width="25" height="120" processorId="ENVELOPE" parameterId="Decay"
+             bgColour="798321187" itemColour2="720535042" itemColour="1004360704"
+             mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
+             showValuePopup="Above" textColour="16777215"/>
+  <Component type="ScriptLabel" id="ScriptLabel3" x="70" y="125" width="25"
+             height="25" fontName="Calibri" text="D" enabled="0" fontSize="15"
+             fontStyle="Bold" textColour="4292664540"/>
+  <Component type="ScriptSlider" id="RELEASE" x="100" y="26" style="Vertical"
+             width="25" height="120" processorId="ENVELOPE" parameterId="Release"
+             bgColour="798321187" itemColour2="720535042" itemColour="1004360704"
+             mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="1000"
+             showValuePopup="Above" textColour="16777215"/>
+  <Component type="ScriptLabel" id="ScriptLabel4" x="100" y="125" width="25"
+             height="25" fontName="Calibri" text="R" enabled="0" fontSize="15"
+             fontStyle="Bold" textColour="4292664540"/>
+  <Component type="ScriptSlider" id="REVERBWET" x="450" y="155" width="140"
+             height="20" style="Horizontal" bgColour="1024889233" itemColour="2921952148"
+             itemColour2="3176352956" textColour="2277161144" processorId="Simple Reverb1"
+             parameterId="WetLevel" showTextBox="0"/>
+  <Component type="ScriptSlider" id="VELOCITY" x="10" y="151" style="Horizontal"
+             width="115" height="20" processorId="VELOCITY" parameterId="Intensity"
+             bgColour="999647779" itemColour2="720535042" itemColour="1289573376"
+             textColour="16777215" showTextBox="0"/>
+  <Component type="ScriptLabel" id="ScriptLabel6" x="10" y="151" width="115"
+             height="20" fontName="Calibri" text="VELOCITY" enabled="0" fontSize="15"
+             fontStyle="Bold" bgColour="9792035" itemColour="350049280" itemColour2="3423670545"
+             textColour="4294309365"/>
+  <Component type="ScriptSlider" id="VOLUME" x="10" y="204" style="Horizontal"
+             width="580" height="21" textColour="16777215" itemColour2="4220160650"
+             bgColour="990951628" itemColour="2080358656" processorId="Simple Gain1"
+             parameterId="Gain" mode="Decibel" min="-100" max="5" stepSize="0.1"
+             suffix=" dB" middlePosition="-18" showValuePopup="Below">
+    <Component type="ScriptLabel" id="volumelabel" x="226" y="0" width="115"
+               height="20" fontName="Calibri" text="VOLUME" textColour="4278190080"
+               enabled="0" fontSize="15" fontStyle="Bold" parentComponent="VOLUME"/>
+  </Component>
+  <Component type="ScriptButton" id="REVERBON" x="450" y="178" processorId="Simple Reverb1"
+             parameterId="Enabled" text="REVERB" width="140" height="20" bgColour="1024889233"
+             itemColour="2467315797" textColour="1537516451" itemColour2="2803370218"/>
+  <Component type="ScriptFloatingTile" id="keyboard" x="-305" y="232" ContentType="Keyboard"
+             bgColour="4284769380" itemColour="436207615" itemColour2="4294967295"
+             textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 14.0,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 9,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: true,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;UseFlatStyle&quot;: false,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
+             width="945" height="78"/>
+  <Component type="ScriptLabel" id="DEVICENAME" x="135" y="-3" height="25"
+             width="300" text="O  R  C  H  E  S  T  O  O  L  S   |   P  L  A  Y"
+             fontName="Calibri" fontStyle="Bold" fontSize="22" textColour="1543503871"/>
+  <Component type="ScriptPanel" id="Panel1" x="130" y="169" width="314" height="31"
+             itemColour2="3174254202" itemColour="1090519039">
+    <Component type="ScriptComboBox" id="Instruments" x="107" y="6" max="3"
+               height="20" text="INSTRUMENTS" items="GLOCKENSPIEL&#10;MARIMBA&#10;XYLOPHONE"
+               width="100" parentComponent="Panel1"/>
+    <Component type="ScriptButton" id="SettingsButton" x="216" y="6" text="SETTINGS"
+               height="20" width="90" itemColour2="1118481" itemColour="3355443"
+               textColour="134217727" parentComponent="Panel1"/>
+    <Component type="ScriptButton" id="LibButton" x="8" y="6" text="LIBRARY"
+               height="20" width="90" itemColour2="1118481" itemColour="3355443"
+               textColour="134217727" parentComponent="Panel1"/>
+  </Component>
+  <Component type="ScriptFloatingTile" id="LIBRARYBROWSER" x="129" y="0" width="316"
+             height="175" ContentType="PresetBrowser" bgColour="1610612736"
+             itemColour="4287692721" itemColour2="4294951115" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: false,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: false,&#13;&#10;  &quot;NumColumns&quot;: 1&#13;&#10;}"
+             FontSize="10" visible="0"/>
+  <Component type="ScriptPanel" id="SettingsPanel" x="0" y="17" width="345"
+             height="280" bgColour="0" borderRadius="20" itemColour="4285229931"
+             itemColour2="4278190080" textColour="1476424447" visible="0">
+    <Component type="ScriptFloatingTile" id="Settings" x="8" y="19" width="200"
+               height="270" ContentType="CustomSettings" bgColour="0" itemColour="16761035"
+               itemColour2="16761035" Data="{&#13;&#10;  &quot;Driver&quot;: true,&#13;&#10;  &quot;Device&quot;: true,&#13;&#10;  &quot;Output&quot;: true,&#13;&#10;  &quot;BufferSize&quot;: false,&#13;&#10;  &quot;SampleRate&quot;: false,&#13;&#10;  &quot;GlobalBPM&quot;: false,&#13;&#10;  &quot;StreamingMode&quot;: false,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#13;&#10;  &quot;ClearMidiCC&quot;: false,&#13;&#10;  &quot;SampleLocation&quot;: true,&#13;&#10;  &quot;DebugMode&quot;: false,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.75,&#13;&#10;    1.0,&#13;&#10;    1.25,&#13;&#10;    1.5,&#13;&#10;    2.0&#13;&#10;  ]&#13;&#10;}"
+               FontSize="10" parentComponent="SettingsPanel"/>
+    <Component type="ScriptLabel" id="AUDIO DRIVER" x="53" y="6" parentComponent="SettingsPanel"
+               fontSize="10"/>
+    <Component type="ScriptFloatingTile" id="FloatingTile1" x="181" y="30" parentComponent="SettingsPanel"
+               ContentType="MidiSources" bgColour="4278190080" itemColour="4294951115"
+               itemColour2="4294951115" Data="{&#13;&#10;}" width="155" height="113"/>
+    <Component type="ScriptLabel" id="Label1" x="188" y="160" parentComponent="SettingsPanel"
+               width="150" height="146" text="ORCHESTOOLS | PLAY                                     made with HISE                                           http://hise.audio                                           "
+               multiline="1" editable="0" fontSize="10" fontStyle="Bold" textColour="4290558136"/>
+    <Component type="ScriptLabel" id="MIDI DRIVER" x="196" y="6" parentComponent="SettingsPanel"
+               fontSize="10"/>
+  </Component>
+</ContentProperties>

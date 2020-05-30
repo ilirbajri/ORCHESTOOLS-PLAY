@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="glock2" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="84" LoKey="82" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Glock/glock_medium_C5.wav" Duplicate="0"
+          LoopEnabled="1" Normalized="1" NormalizedPeak="21.2228" SampleStartMod="250"
+          MonolithOffset="0" MonolithLength="319488" SampleRate="44100"
+          LoopXFade="70000" LoopStart="115593" LoopEnd="294603"/>
+  <sample Root="96" LoKey="94" HiKey="99" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Glock/glock_medium_C6.wav" Duplicate="0"
+          LoopEnabled="1" Normalized="1" NormalizedPeak="21.4591" Volume="4"
+          SampleStartMod="250" MonolithOffset="319488" MonolithLength="319488"
+          SampleRate="44100" LoopXFade="60000" LoopStart="103552" LoopEnd="254065"/>
+  <sample Root="108" LoKey="106" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Glock/glock_medium_C7.wav" Duplicate="0"
+          LoopEnabled="1" Normalized="1" NormalizedPeak="21.1134" Volume="10"
+          SampleStartMod="250" MonolithOffset="638976" MonolithLength="126976"
+          SampleRate="44100" LoopXFade="35000" LoopStart="49769" LoopEnd="123147"/>
+  <sample Root="79" LoKey="0" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Glock/glock_medium_G4.wav" Duplicate="0"
+          LoopEnabled="1" Normalized="1" NormalizedPeak="20.2772" SampleStartMod="250"
+          MonolithOffset="765952" MonolithLength="319488" SampleRate="44100"
+          LoopXFade="70000" LoopStart="104355" LoopEnd="278949"/>
+  <sample Root="91" LoKey="88" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Glock/glock_medium_G5.wav" Duplicate="0"
+          LoopEnabled="1" Normalized="1" NormalizedPeak="21.1953" SampleStartMod="250"
+          MonolithOffset="1085440" MonolithLength="307200" SampleRate="44100"
+          LoopXFade="70000" LoopStart="139706" LoopEnd="276325"/>
+  <sample Root="103" LoKey="100" HiKey="105" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Glock/glock_medium_G6.wav" Duplicate="0"
+          LoopEnabled="1" Normalized="1" NormalizedPeak="21.5154" Volume="6"
+          SampleStartMod="250" MonolithOffset="1392640" MonolithLength="212992"
+          SampleRate="44100" LoopStart="76794" LoopXFade="60000" LoopEnd="173658"/>
+</samplemap>

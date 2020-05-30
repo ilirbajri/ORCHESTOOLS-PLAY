@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="TRANSPOSE" value="0"/>
+    <Control type="ScriptSlider" id="DELAYLEFTTIME" value="0"/>
+    <Control type="ScriptSlider" id="DELAYLEFTFEEDBACK" value="0"/>
+    <Control type="ScriptSlider" id="DELAYRIGHTTIME" value="0"/>
+    <Control type="ScriptSlider" id="DELAYRIGHTFEEDBACK" value="0"/>
+    <Control type="ScriptSlider" id="DELAYMIX" value="0"/>
+    <Control type="ScriptButton" id="DELAY ON" value="0"/>
+    <Control type="ScriptSlider" id="ATTACK" value="8"/>
+    <Control type="ScriptSlider" id="HOLD" value="489"/>
+    <Control type="ScriptSlider" id="DECAY" value="20000"/>
+    <Control type="ScriptSlider" id="RELEASE" value="1847"/>
+    <Control type="ScriptSlider" id="REVERBWET" value="0.41"/>
+    <Control type="ScriptSlider" id="VELOCITY" value="1"/>
+    <Control type="ScriptSlider" id="VOLUME" value="-9.7"/>
+    <Control type="ScriptButton" id="REVERBON" value="1"/>
+    <Control type="ScriptComboBox" id="Instruments" value="3"/>
+    <Control type="ScriptButton" id="SettingsButton" value="0"/>
+    <Control type="ScriptButton" id="LibButton" value="1"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

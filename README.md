@@ -7,6 +7,8 @@ ORCHESTOOLS | PLAY is a simple rompler virtual instrument created as an educatio
 Visit http://musictop69.wixsite.com/orchestools for more info and download compiled plugins and standalone versions. 
 Join the forum for discussions, requests, proposals, advices and stuff - http://musictop69.wixsite.com/orchestools/forum
 
+Sound demo: https://www.youtube.com/watch?v=UQzO_Me4J-Q
+
 Use them for good. 
 
 Make music & Love!

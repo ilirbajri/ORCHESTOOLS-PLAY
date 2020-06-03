@@ -15,4 +15,4 @@ _________________________________________________
 
 Hise is released under GPLv3 open source license.
 ORCHESTOOLS | PLAY  is a free/GPLv3 open source licensed public domain instrument. 
-VSCO 2 CE samples are released under Creative commons 0 public domain licence.
+VSCL samples are released under Creative commons 0 public domain licence.
